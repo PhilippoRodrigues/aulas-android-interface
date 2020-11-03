@@ -1,4 +1,10 @@
 package br.edu.infnet.androidloginsenha.model
 
-class Usuario {
-}
+import java.io.Serializable
+
+class Usuario (
+    var nome: String,
+    var idade: Int,
+    var telefone: String,
+    var matricula: Int
+): Serializable
