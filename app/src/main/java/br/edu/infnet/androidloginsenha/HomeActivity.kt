@@ -1,5 +1,6 @@
 package br.edu.infnet.androidloginsenha
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -37,5 +38,7 @@ class HomeActivity : AppCompatActivity() {
             alterResultadoImc.putExtra("usuario", usuario)
             startActivity(alterResultadoImc)
         }
+
+        setResult(Activity.RESULT_OK)
     }
 }

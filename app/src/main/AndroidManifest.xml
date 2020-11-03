@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLoginSenha">
-        <activity android:name=".ResultadoImcActivity"></activity>
+        <activity android:name=".UsuarioCadastroActivity"></activity>
+        <activity android:name=".ResultadoImcActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
